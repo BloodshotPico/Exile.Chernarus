@@ -1,0 +1,2864 @@
+version=53;
+class EditorData
+{
+	moveGridStep=1;
+	angleGridStep=0.2617994;
+	scaleGridStep=1;
+	autoGroupingDist=10;
+	toggles=513;
+	class ItemIDProvider
+	{
+		nextID=125;
+	};
+	class Camera
+	{
+		pos[]={8240.0391,443.80325,11971.274};
+		dir[]={-0.3553454,-0.50370711,-0.78741282};
+		up[]={-0.20719476,0.86387104,-0.45912522};
+		aside[]={-0.91148663,-3.0439696e-007,0.41133785};
+	};
+};
+binarizationWanted=0;
+addons[]=
+{
+	"exile_client",
+	"A3_Ui_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=2;
+		class Item0
+		{
+			className="exile_client";
+			name="exile_client";
+		};
+		class Item1
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+	};
+};
+randomSeed=5544807;
+class ScenarioData
+{
+	author="Bloodshot Pico | Cuntainian Cunt";
+};
+class Mission
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.25;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.25;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=10;
+		day=11;
+		hour=9;
+		minute=20;
+		startFogDecay=0.014;
+		forecastFogDecay=0.014;
+	};
+	class Entities
+	{
+		items=23;
+		class Item0
+		{
+			dataType="Group";
+			side="Independent";
+			class Entities
+			{
+				items=100;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15371.458,268.60629,15358.071};
+					};
+					side="Independent";
+					flags=7;
+					class Attributes
+					{
+						isPlayer=1;
+					};
+					id=1;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0517578e-005;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15376.896,268.28308,15357.993};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=2;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00061035156;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15381.091,268.10126,15357.838};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=3;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.13671875;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15385.209,268.88824,15357.838};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=4;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.3049011;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15389.248,269.68384,15357.993};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=5;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.5105896;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15393.211,270.12335,15358.071};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=6;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.4350281;
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15397.017,270.46167,15358.071};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=7;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=4.2584839;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15396.939,270.33316,15355.43};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=8;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=4.1176453;
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15393.366,270.01767,15355.43};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=9;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.3471985;
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15389.093,269.57727,15355.663};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=10;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3869629;
+				};
+				class Item10
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15384.976,268.875,15355.663};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=11;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.2672424;
+				};
+				class Item11
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15381.091,268.17453,15355.741};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=12;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.20944214;
+				};
+				class Item12
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15376.663,268.30026,15355.663};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=13;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item13
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15371.303,268.61441,15355.43};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=14;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item14
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15371.069,268.61377,15352.478};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=15;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00061035156;
+				};
+				class Item15
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15376.663,268.30054,15352.711};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=16;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item16
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15381.091,268.31985,15352.865};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=17;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.35421753;
+				};
+				class Item17
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15385.054,269.02222,15352.478};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=18;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.4347534;
+				};
+				class Item18
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15389.248,269.54041,15352.711};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=19;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3644714;
+				};
+				class Item19
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15393.288,269.82593,15352.399};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=20;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.1712646;
+				};
+				class Item20
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15396.862,269.99716,15351.934};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=21;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.8822021;
+				};
+				class Item21
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15370.836,268.15427,15349.914};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=22;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0007019043;
+				};
+				class Item22
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15376.74,267.8381,15350.068};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=23;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item23
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15380.936,268.14545,15350.225};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=24;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.59597778;
+				};
+				class Item24
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15385.054,268.74274,15349.914};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=25;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.6268311;
+				};
+				class Item25
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15389.016,269.1272,15350.068};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=26;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.3841248;
+				};
+				class Item26
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15393.055,269.22089,15349.914};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=27;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.9925842;
+				};
+				class Item27
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15396.707,269.37448,15349.603};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=28;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.6672668;
+				};
+				class Item28
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15370.759,267.61765,15346.962};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=29;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0019836426;
+				};
+				class Item29
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15376.818,267.31873,15347.272};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=30;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00067138672;
+				};
+				class Item30
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15380.858,267.77811,15347.351};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=31;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.75192261;
+				};
+				class Item31
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15385.286,268.37933,15347.117};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=32;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.8019104;
+				};
+				class Item32
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15389.248,268.69321,15347.506};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=33;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.4448853;
+				};
+				class Item33
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15393.366,268.68237,15347.117};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=34;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0077515;
+				};
+				class Item34
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15396.939,268.80331,15347.428};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=35;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.5246582;
+				};
+				class Item35
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15395.075,270.29187,15358.071};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=36;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.841217;
+				};
+				class Item36
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15395.152,270.18033,15355.43};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=37;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.7369385;
+				};
+				class Item37
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15395.075,269.91074,15352.167};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=38;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.5258484;
+				};
+				class Item38
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15394.842,269.27802,15349.681};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=39;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.3196716;
+				};
+				class Item39
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15395.309,268.69516,15347.351};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=40;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.2235107;
+				};
+				class Item40
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15391.113,268.71906,15347.428};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=41;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.7020874;
+				};
+				class Item41
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15391.269,269.18524,15349.992};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=42;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.7162476;
+				};
+				class Item42
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15391.346,269.71021,15352.865};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=43;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.7814636;
+				};
+				class Item43
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15391.113,269.78961,15355.508};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=44;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.8327026;
+				};
+				class Item44
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15391.346,269.93192,15358.071};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=45;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0059509;
+				};
+				class Item45
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15387.384,269.36978,15358.071};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=46;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.0073547;
+				};
+				class Item46
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15387.151,269.24911,15355.663};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=47;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.8618164;
+				};
+				class Item47
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15386.918,269.28653,15352.711};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=48;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.8746338;
+				};
+				class Item48
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15387.151,268.9877,15349.914};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=49;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.0842285;
+				};
+				class Item49
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15387.229,268.55063,15347.351};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=50;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=2.1265564;
+				};
+				class Item50
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15382.878,268.11127,15347.428};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=51;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.2333374;
+				};
+				class Item51
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15382.878,268.44559,15350.147};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=52;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=1.066864;
+				};
+				class Item52
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15382.956,268.67731,15352.789};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=53;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.86453247;
+				};
+				class Item53
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15382.878,268.51328,15355.663};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=54;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.69329834;
+				};
+				class Item54
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15382.878,268.46393,15357.838};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=55;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.64450073;
+				};
+				class Item55
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15378.993,268.12418,15357.916};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=56;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00061035156;
+				};
+				class Item56
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15378.993,268.12473,15355.508};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=57;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00061035156;
+				};
+				class Item57
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15378.916,268.13019,15352.944};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=58;
+					type="Exile_Unit_GhostPlayer";
+				};
+				class Item58
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15378.993,267.80795,15350.38};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=59;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.082885742;
+				};
+				class Item59
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15378.993,267.46188,15347.428};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=60;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.28018188;
+				};
+				class Item60
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15374.954,267.50208,15347.506};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=61;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00073242188;
+				};
+				class Item61
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15374.721,267.99966,15350.147};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=62;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0007019043;
+				};
+				class Item62
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15374.721,268.44064,15352.944};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=63;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0517578e-005;
+				};
+				class Item63
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15374.799,268.43637,15355.741};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=64;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0517578e-005;
+				};
+				class Item64
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15374.954,268.42853,15358.383};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=65;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00030517578;
+				};
+				class Item65
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15373.167,268.51929,15358.071};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=66;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0517578e-005;
+				};
+				class Item66
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15372.934,268.53143,15355.508};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=67;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0517578e-005;
+				};
+				class Item67
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15372.7,268.54407,15352.711};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=68;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00064086914;
+				};
+				class Item68
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15372.623,268.0062,15349.603};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=69;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00073242188;
+				};
+				class Item69
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15372.623,267.53506,15347.04};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=70;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0007019043;
+				};
+				class Item70
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15369.594,268.70123,15358.149};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=71;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.0517578e-005;
+				};
+				class Item71
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15369.36,268.71378,15355.43};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=72;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00061035156;
+				};
+				class Item72
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15369.205,268.72171,15352.711};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=73;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00064086914;
+				};
+				class Item73
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15368.972,268.33511,15350.38};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=74;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00067138672;
+				};
+				class Item74
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15368.661,267.79666,15347.351};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=75;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0019836426;
+				};
+				class Item75
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15366.797,267.8327,15347.117};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=76;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0020446777;
+				};
+				class Item76
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15366.874,268.44321,15350.458};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=77;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0019836426;
+				};
+				class Item77
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15366.951,268.82324,15352.865};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=78;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00054931641;
+				};
+				class Item78
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15367.107,268.81903,15355.196};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=79;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00061035156;
+				};
+				class Item79
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15367.263,268.81479,15358.304};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=80;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.00067138672;
+				};
+				class Item80
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15365.709,268.85867,15358.537};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=81;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0023193359;
+				};
+				class Item81
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15365.553,268.86298,15355.43};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=82;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0023193359;
+				};
+				class Item82
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15365.476,268.86499,15353.332};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=83;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0022277832;
+				};
+				class Item83
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15365.164,268.51892,15350.613};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=84;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0026855469;
+				};
+				class Item84
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15365.01,267.92474,15347.351};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=85;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0026245117;
+				};
+				class Item85
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15362.912,267.9826,15347.351};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=86;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0019836426;
+				};
+				class Item86
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15363.067,268.53302,15350.38};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=87;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0026855469;
+				};
+				class Item87
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15363.067,268.92972,15353.643};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=88;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0015869141;
+				};
+				class Item88
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15363.301,268.92407,15355.508};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=89;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0022583008;
+				};
+				class Item89
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15363.611,268.91565,15358.615};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=90;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0023193359;
+				};
+				class Item90
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15360.736,268.01477,15347.195};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=91;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0019226074;
+				};
+				class Item91
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15360.97,268.56241,15350.225};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=92;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0026550293;
+				};
+				class Item92
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15360.736,268.99301,15353.643};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=93;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0015869141;
+				};
+				class Item93
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15361.28,268.97821,15355.586};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=94;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0015563965;
+				};
+				class Item94
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15361.202,268.98108,15358.77};
+					};
+					side="Independent";
+					flags=5;
+					class Attributes
+					{
+					};
+					id=95;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=0.0022888184;
+				};
+				class Item95
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15399.115,270.59033,15358.071};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=96;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=4.6955261;
+				};
+				class Item96
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15399.271,270.44577,15355.508};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=97;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=4.571991;
+				};
+				class Item97
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15399.037,270.08286,15351.934};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=98;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=4.28302;
+				};
+				class Item98
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15399.037,269.4704,15349.681};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=99;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=4.0829773;
+				};
+				class Item99
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={15398.96,268.73495,15347.117};
+					};
+					side="Independent";
+					flags=1;
+					class Attributes
+					{
+					};
+					id=100;
+					type="Exile_Unit_GhostPlayer";
+					atlOffset=3.8060608;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=0;
+			atlOffset=3.0517578e-005;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={11443.095,798.43372,11362.555};
+			name="ExileTraderZone2";
+			text="TraderZone2Exile";
+			markerType="ELLIPSE";
+			type="ExileTraderZone";
+			colorName="ColorBlue";
+			a=250;
+			b=250;
+			id=101;
+			atlOffset=481.23779;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={11443.095,479.01245,11362.555};
+			name="ExileTraderZone2Icon";
+			type="ExileTraderZoneIcon";
+			id=102;
+			atlOffset=161.81653;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={9663.4346,292.22501,9347.9463};
+			name="ExileSpecopsTrader1";
+			text="SpecopsTrader1Exile";
+			markerType="ELLIPSE";
+			type="ExileNonConstructionZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=50;
+			b=50;
+			drawBorder=1;
+			id=103;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={9663.4346,261.05762,9347.9463};
+			name="ExileSpecopsTraderIcon1";
+			type="ExileSpecOpsTraderIcon";
+			id=104;
+			atlOffset=-31.167389;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={10353.38,63.229671,2152.4478};
+			name="ExileSpawnBoona";
+			text="BoonaSpawn";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=150;
+			b=150;
+			drawBorder=1;
+			id=105;
+			atlOffset=57.271431;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={10353.38,5.9581838,2152.4507};
+			name="ExileSpawnZoneBoonaIcon";
+			type="ExileSpawnZoneIcon";
+			id=106;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={1872.1735,49.643276,2227.9275};
+			name="SpawnSpookdorp";
+			text="SpookdorpSpawn";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=150;
+			b=150;
+			drawBorder=1;
+			id=107;
+			atlOffset=43.463276;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Spawn Zone";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={1872.1735,6.1799998,2227.9275};
+			name="ExileSpawnZoneSpookdorpIcon";
+			type="ExileSpawnZoneIcon";
+			id=108;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={12834.164,5.9860229,9796.5898};
+			name="SpawnCanto";
+			text="CantoSpawn";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=175;
+			b=175;
+			drawBorder=1;
+			id=109;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={12834.164,5.9860229,9796.5898};
+			name="ExileSpawnZoneCantoIcon";
+			type="ExileSpawnZoneIcon";
+			id=110;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item11
+		{
+			dataType="Marker";
+			position[]={13414.346,5.6636691,6252.1201};
+			name="SpawnWilderness";
+			text="WildernessSpawn";
+			markerType="ELLIPSE";
+			type="ExileSpawnZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=150;
+			b=150;
+			drawBorder=1;
+			id=113;
+			atlOffset=4.7683716e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item12
+		{
+			dataType="Marker";
+			position[]={13414.348,-110.47461,6252.1182};
+			name="ExileSpawnZoneWildernessIcon1";
+			type="ExileSpawnZoneIcon";
+			id=114;
+			atlOffset=-116.1383;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item13
+		{
+			dataType="Marker";
+			position[]={8411.2383,156.56119,12227.085};
+			name="ExileConcreteMixerZone2";
+			text="ConcreteMixerZone2Exile";
+			markerType="ELLIPSE";
+			type="ExileConcreteMixerZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=100;
+			b=100;
+			drawBorder=1;
+			id=115;
+			atlOffset=1.5258789e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Concrete Mixer Zone";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={8411.2383,156.56117,12227.085};
+			name="ExileConcreteMixerIcon2";
+			type="ExileConcreteMixerZoneIcon";
+			id=116;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={6460.23,322.03143,6188.6582};
+			name="ConcreteMixerZone1";
+			text="Zone1ConcreteMixer";
+			markerType="ELLIPSE";
+			type="ExileConcreteMixerZone";
+			colorName="ColorBlack";
+			fillName="Border";
+			a=75;
+			b=75;
+			drawBorder=1;
+			id=117;
+			atlOffset=0.017730713;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Concrete Mixer Zone";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={6973.854,0,2187.1277};
+			name="ExileBoatSellerIcon1";
+			type="ExileBoatTraderIcon";
+			id=118;
+			atlOffset=9.4025602;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item17
+		{
+			dataType="Marker";
+			position[]={5235.1519,0,2212.8379};
+			name="ExileAircraftTraderZone1";
+			text="AircraftTraderZone1Exile";
+			markerType="ELLIPSE";
+			type="ExileNonConstructionZone";
+			colorName="ColorBlue";
+			a=100;
+			b=100;
+			id=119;
+			atlOffset=-9.1016216;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Safe Zone";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item18
+		{
+			dataType="Marker";
+			position[]={6460.2231,311.30664,6188.665};
+			name="ExileConcreteMixerIcon1";
+			type="ExileConcreteMixerZoneIcon";
+			id=120;
+			atlOffset=-10.707184;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item19
+		{
+			dataType="Marker";
+			position[]={13185.242,1.5082939,9849.5908};
+			name="ExileBoatSellerIcon2";
+			type="ExileBoatTraderIcon";
+			id=121;
+			atlOffset=10.051444;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item20
+		{
+			dataType="Marker";
+			position[]={7119.9863,295.02563,7783.7842};
+			name="ExileTraderZone1";
+			text="TraderZone1Exile";
+			markerType="ELLIPSE";
+			type="ExileTraderZone";
+			colorName="ColorBlue";
+			a=250;
+			b=250;
+			id=122;
+			atlOffset=0.13354492;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Safe Zone";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item21
+		{
+			dataType="Marker";
+			position[]={7119.9883,247.95996,7783.7832};
+			name="ExileTraderZone1Icon";
+			type="ExileTraderZoneIcon";
+			id=123;
+			atlOffset=-46.931976;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item22
+		{
+			dataType="Marker";
+			position[]={5235.1523,9.1016264,2212.8384};
+			name="ExileAircraftTraderZoneIcon1";
+			type="ExileAircraftTraderIcon";
+			id=124;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ExileMarkerZone";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ExileMarkerIcon";
+					expression="false";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};
