@@ -12,10 +12,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={8240.0391,443.80325,11971.274};
-		dir[]={-0.3553454,-0.50370711,-0.78741282};
-		up[]={-0.20719476,0.86387104,-0.45912522};
-		aside[]={-0.91148663,-3.0439696e-007,0.41133785};
+		pos[]={8554.1699,1018.8251,12689.368};
+		dir[]={0.79299366,-0.28699017,0.53740853};
+		up[]={0.23757985,0.95793104,0.16100712};
+		aside[]={0.56100714,-3.0361116e-007,-0.82781553};
 	};
 };
 binarizationWanted=0;
@@ -1624,7 +1624,7 @@ class Mission
 					};
 					id=97;
 					type="Exile_Unit_GhostPlayer";
-					atlOffset=4.571991;
+					atlOffset=4.5722656;
 				};
 				class Item97
 				{
@@ -1899,9 +1899,9 @@ class Mission
 		class Item5
 		{
 			dataType="Marker";
-			position[]={10353.38,63.229671,2152.4478};
-			name="ExileSpawnBoona";
-			text="BoonaSpawn";
+			position[]={10353.38,0,2152.448};
+			name="ExileSpawnElektrozavodsk";
+			text="ElektrozavodskSpawn";
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
@@ -1910,7 +1910,7 @@ class Mission
 			b=150;
 			drawBorder=1;
 			id=105;
-			atlOffset=57.271431;
+			atlOffset=-5.9582367;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -1957,10 +1957,11 @@ class Mission
 		class Item6
 		{
 			dataType="Marker";
-			position[]={10353.38,5.9581838,2152.4507};
-			name="ExileSpawnZoneBoonaIcon";
+			position[]={10353.378,0,2152.4441};
+			name="ExileSpawnZoneElektrozavodskicon";
 			type="ExileSpawnZoneIcon";
 			id=106;
+			atlOffset=-5.9582162;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2007,8 +2008,8 @@ class Mission
 		class Item7
 		{
 			dataType="Marker";
-			position[]={1872.1735,49.643276,2227.9275};
-			name="SpawnSpookdorp";
+			position[]={1872.173,0,2227.927};
+			name="SpawnKamenkadorp";
 			text="SpookdorpSpawn";
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
@@ -2018,7 +2019,7 @@ class Mission
 			b=150;
 			drawBorder=1;
 			id=107;
-			atlOffset=43.463276;
+			atlOffset=-6.1799998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2065,10 +2066,11 @@ class Mission
 		class Item8
 		{
 			dataType="Marker";
-			position[]={1872.1735,6.1799998,2227.9275};
-			name="ExileSpawnZoneSpookdorpIcon";
+			position[]={1872.1671,0,2227.9297};
+			name="ExileSpawnZoneKamenkadorpIcon";
 			type="ExileSpawnZoneIcon";
 			id=108;
+			atlOffset=-6.1799998;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2115,9 +2117,9 @@ class Mission
 		class Item9
 		{
 			dataType="Marker";
-			position[]={12834.164,5.9860229,9796.5898};
-			name="SpawnCanto";
-			text="CantoSpawn";
+			position[]={12834.164,0,9796.5898};
+			name="SpawnLumberMill";
+			text="LumberMillSpawn";
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
@@ -2126,6 +2128,7 @@ class Mission
 			b=175;
 			drawBorder=1;
 			id=109;
+			atlOffset=-5.9860229;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2172,10 +2175,11 @@ class Mission
 		class Item10
 		{
 			dataType="Marker";
-			position[]={12834.164,5.9860229,9796.5898};
-			name="ExileSpawnZoneCantoIcon";
+			position[]={12834.159,0,9796.5967};
+			name="ExileSpawnZoneLumberMillIcon";
 			type="ExileSpawnZoneIcon";
 			id=110;
+			atlOffset=-5.9860559;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2222,9 +2226,9 @@ class Mission
 		class Item11
 		{
 			dataType="Marker";
-			position[]={13414.346,5.6636691,6252.1201};
-			name="SpawnWilderness";
-			text="WildernessSpawn";
+			position[]={13414.346,0,6252.1201};
+			name="SpawnSolnichniy";
+			text="SolnichniySpawn";
 			markerType="ELLIPSE";
 			type="ExileSpawnZone";
 			colorName="ColorBlack";
@@ -2233,7 +2237,7 @@ class Mission
 			b=150;
 			drawBorder=1;
 			id=113;
-			atlOffset=4.7683716e-007;
+			atlOffset=-5.6636686;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2280,11 +2284,11 @@ class Mission
 		class Item12
 		{
 			dataType="Marker";
-			position[]={13414.348,-110.47461,6252.1182};
-			name="ExileSpawnZoneWildernessIcon1";
+			position[]={13414.34,0,6252.123};
+			name="ExileSpawnZoneSolnichniyIcon";
 			type="ExileSpawnZoneIcon";
 			id=114;
-			atlOffset=-116.1383;
+			atlOffset=-5.66363;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2706,7 +2710,7 @@ class Mission
 		class Item20
 		{
 			dataType="Marker";
-			position[]={7119.9863,295.02563,7783.7842};
+			position[]={6319.2021,304.99438,7808.8203};
 			name="ExileTraderZone1";
 			text="TraderZone1Exile";
 			markerType="ELLIPSE";
@@ -2715,7 +2719,6 @@ class Mission
 			a=250;
 			b=250;
 			id=122;
-			atlOffset=0.13354492;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2762,11 +2765,11 @@ class Mission
 		class Item21
 		{
 			dataType="Marker";
-			position[]={7119.9883,247.95996,7783.7832};
+			position[]={6319.2041,255.72461,7808.8193};
 			name="ExileTraderZone1Icon";
 			type="ExileTraderZoneIcon";
 			id=123;
-			atlOffset=-46.931976;
+			atlOffset=-49.269775;
 			class CustomAttributes
 			{
 				class Attribute0
